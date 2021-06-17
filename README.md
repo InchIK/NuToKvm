@@ -12,11 +12,8 @@
 運作流程：  
 
     1. 尋找nutanix上其vm名稱的disk uuid，並抓出其數量(註1)。  
-    
-　　2. 將uuid disk copy至Proxmox上的暫存目錄，並將其轉換為qcow2。  
-　　
-　　3. 轉換後會直接轉至Proxmox上的qcow2檔並取代。  
-　　
+    2. 將uuid disk copy至Proxmox上的暫存目錄，並將其轉換為qcow2。 
+　　3. 轉換後會直接轉至Proxmox上的qcow2檔並取代。 
 　　4. 轉換後會刪除在暫存目錄的uuid disk。
     
  
