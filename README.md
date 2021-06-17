@@ -14,5 +14,9 @@
     3. 轉換後會直接轉至Proxmox上的qcow2檔並取代。 
     4. 轉換後會刪除在暫存目錄的uuid disk。
     註1:要檢查nutanix上是否有掛載cdrom，否則會列入計算的disk uuid。
+   
+執行:   
+    python3 NuToKvm.py 
+   
     
  
