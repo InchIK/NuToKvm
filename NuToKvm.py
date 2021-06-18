@@ -12,7 +12,7 @@ username = "username"
 password = "password"
 #Proxmox mount nutanix storeage container patch
 srcPath = "/mnt/nutanix/.acropolis/vmdisk/"
-#Proxmox coy nutanix vmdisk file temp patch
+#Proxmox copy nutanix vmdisk file temp patch
 tmpPath = "/nfs/tmp/"
 #Proxmox qcow2 image file patch
 dstPath = "/nfs/images/"
